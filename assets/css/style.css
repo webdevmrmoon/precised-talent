@@ -4828,6 +4828,9 @@ svg.textanimateUnderline path {
 
 
 @media only screen and (max-width:768px) {
+    .bannerRightContent.bannerIllustration {
+        width: 100%;
+    }
     .serviceboxContent a {
         margin-top: 20px;
         position: relative;
