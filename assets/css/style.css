@@ -276,7 +276,7 @@ p {
 }
 
 .headerSection.scroll-down {
-    top: -100px;
+      top: -140px;
     position: fixed;
 }
 
