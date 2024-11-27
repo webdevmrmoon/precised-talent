@@ -276,7 +276,7 @@ p {
 }
 
 .headerSection.scroll-down {
-      top: -140px;
+    top: -140px;
     position: fixed;
 }
 
@@ -1069,7 +1069,7 @@ p {
     font-weight: 700;
     margin-bottom: 10px;
     /* font-size: 38px; */
-    font-size: 42px;
+    font-size: 40px;
 }
 
 .aboutSide h4 {
@@ -2826,29 +2826,19 @@ ul.footerSocial i {
 /* contact */
 
 .contactUsCard {
-    padding: 25px;
+    padding: 21px;
     position: relative;
     border-radius: 8px;
     overflow: hidden;
-    margin-bottom: 36px;
+    margin-bottom: 18px;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; */
-    box-shadow: rgb(0 0 0 / 5%) 0px 4px 12px;
-    border: 1px solid #dddddd4a;
-    min-height: 159px;
+    box-shadow: rgb(0 0 0 / 0%) 0px 4px 12px;
+    border: none;
+    min-height: 148px;
+    background: linear-gradient(45deg, #ffe6dd, #ffefde)
 }
 
-.contactUsCard::after {
-    position: absolute;
-    content: '';
-    width: 0px;
-    height: 0px;
-    border-style: solid;
-    border-width: 0 0px 14px 210px;
-    border-color: transparent transparent #46267370 transparent;
-    transform: rotate(0deg);
-    right: 0px;
-    bottom: 0px;
-}
+
 
 .contactCHeader {
     display: flex;
@@ -2859,7 +2849,7 @@ ul.footerSocial i {
 .contactIco {
     width: 40px;
     height: 40px;
-    background: linear-gradient(180deg, #290090, #2d07ba);
+    background: linear-gradient(148deg, #f17f67, #f7a238);
     color: #fff;
     border-radius: 100%;
     text-align: center;
@@ -2875,7 +2865,7 @@ ul.footerSocial i {
 .contactTitle h5 {
     font-size: 18px;
     font-weight: 700;
-    color: #2a0091;
+    color: #616161;
 
 }
 
@@ -2980,7 +2970,7 @@ textarea.form-control {
 
 .right-sidebar-box .custom-form .custom-input .form-control {
     border: 1px solid #dddddd80 !important;
-    padding: 10px 40px;
+    padding: 10px 16px;
     border-radius: 6px;
 }
 
@@ -3342,7 +3332,20 @@ textarea.form-control {
 .industryCard:hover h2, .industryCard:hover p {
     color: #fff;
 }
-
+.careerWrapper .industryCard a.complink {
+    display: inline-block;
+    width: 40%;
+}
+.careerWrapper .industryCard p {
+    width: 30%;
+}
+.careerWrapper .industryContent {
+    width: 78%;
+}
+.careerWrapper .industryCard:hover h3 ,.careerWrapper .industryCard:hover a.complink {
+    color: #fff;
+    transition: 0.1s ease-in-out;
+}
 
 
 .popupswipBtn a {
@@ -3844,8 +3847,8 @@ svg.textanimateUnderline path {
     margin-right: 50px;
 }
 .journeycontent p{
-    text-align: left;
-    font-size: 18px;
+    text-align: justify;
+    font-size: 16px;
 }
 .journeytiles {
     padding: 30px 30px;
@@ -3854,19 +3857,21 @@ svg.textanimateUnderline path {
     margin-bottom: 22px;
 }
 .journeytileWrap h3{
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
 }
 .journeytileWrap p{
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 13px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 11px;
+    color: #fff;
 }
 .jourtile1 {
-    background-color: #d8f7f3;
+    background: linear-gradient(146deg, #7d37fc, #cf35f3);
 }
 .jourtile2 {
-    background-color: #ffe5ab;
+    background: linear-gradient(124deg, #f17e67, #f7a03b);
 }
 .bgjourney {
     background-color: #fcf6ff;
@@ -3888,7 +3893,7 @@ svg.textanimateUnderline path {
     margin-top: 50px;
 }
 .ourvaluestile {
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
     min-height: 280px;
     margin-bottom: 22px;
@@ -3921,7 +3926,7 @@ svg.textanimateUnderline path {
     border: 1px solid #d6f5d7;
 }
 .ourvaluesIcon {
-    width:100px;
+    width:75px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -3939,17 +3944,19 @@ svg.textanimateUnderline path {
     margin-top: 0px;
 }
 
-
+.ourculture  {
+    background: linear-gradient(147deg, #5913c7, #c835f3);
+}
 .ourcultureDiv{
-    padding: 70px 70px;
-    background: #002157;
-    border-radius: 20px;
+    /* padding: 70px 70px; */
+    /* background: #002157; */
+    /* border-radius: 20px; */
     position: relative;
     overflow: hidden;
 }
 .ourcultureTitle h4 {
     margin-bottom: 12px;
-    color: #00fdff;
+    color: #f69c40;
     font-size: 20px;
 }
 .ourcultureTitle h2{
@@ -3967,16 +3974,16 @@ svg.textanimateUnderline path {
     font-family: 'Open Sans';
 }
 .ourcultureTitle .typed .color1{
-    color: #907eff;
+    color: #ffff;
 }
 .ourcultureTitle .typed .color2{
-    color: #907eff;
+    color: #fff;
 }
 .ourcultureTitle .typed .color3{
-    color: #fe5621;
+    color: #fff;
 }
 .ourcultureTitle .typed .color4{
-    color: #bff130;
+    color: #fff;
 }
 .typed-cursor {
     opacity: 1;
@@ -4235,7 +4242,7 @@ svg.textanimateUnderline path {
 .serIItile3.serTile4Last {
     margin-top: 50px;
 }
-.contactUsCard.contactbg1 {
+/* .contactUsCard.contactbg1 {
     background: radial-gradient(#fff, #e6f7ff),url(../img/bg/contact-tile-bg.jpg);
     background: radial-gradient(#ffffffd9, #e6f7ff96), url(../img/bg/contact-tile-bg.jpg);
     background-size: cover;
@@ -4256,7 +4263,7 @@ svg.textanimateUnderline path {
     background-position: center center;
     animation: upandDown 5s ease-in-out infinite alternate-reverse both;
     animation-delay: 1.8s;
-}
+} */
 
 
 .industriesWeServe{
@@ -4300,8 +4307,9 @@ svg.textanimateUnderline path {
 .industriesTile.industile5::after{
     background: radial-gradient(#fff, #f7ffce);
 }
-.innerBanner.industriesbg {
-    background-image: url(../img/bg/industries-bg.jpg);
+.innerBanner.aboutUs  {
+    background-image: linear-gradient(45deg, #fcf8ffdb, #faeaffb5), url(../img/bg/about-inner-bnr.jpg);
+    background-size: 100%;
 }
 .industriesIco {
     height: 120px;
