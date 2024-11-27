@@ -4885,6 +4885,11 @@ svg.textanimateUnderline path {
     .industryContent h2 {
         width: 100%;
         text-align: center;
+        padding: 0px;
+    }
+    .careerWrapper .industryCard a.complink {
+        width: 100%;
+        text-align: center;
     }
     .industryContent p {
         text-align: center;
@@ -5444,7 +5449,7 @@ svg.textanimateUnderline path {
         width: 100%!important;
     }
     .innerBannerContent {
-        height: 131px;
+        height: 191px;
     }
     .inrbnrMain h2 {
         font-size: 30px;
