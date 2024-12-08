@@ -380,7 +380,7 @@ p {
 .headerSubMenu>li a {
     padding: 8px 12px;
     display: inline-block;
-    width: 240px;
+    width: 280px;
     border-bottom: 1px dashed #dddddd57;
     transition: all 0.3s ease-in-out;
     background: transparent;
@@ -860,6 +860,9 @@ p {
 .aboutImg img {
     width: 100%;
 }
+.aboutSideWrapper.position-sticky {
+    top: 100px;
+}
 
 /*  */
 
@@ -1310,7 +1313,7 @@ p {
     padding: 24px;
     position: relative;
     z-index: 2;
-    min-height: 350px;
+    min-height: 260px;
 }
 
 .serviceboxContent h2 {
@@ -1367,7 +1370,7 @@ p {
 
 .serviceBox {
     position: relative;
-    min-height: 299px;
+    /* min-height: 299px; */
     margin-bottom: 27px;
 }
 
